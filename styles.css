@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Protest Strike", serif;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: "PT Sans", sans-serif;
+}
+
+section {
+    background-color: rgb(191, 192, 189);
+}
+
+header {
+    padding: 40px 0;
+    background-color: black;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    display: inline-block;
+    background-color: white;
+    padding: 8px;
+    color: black;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 30px;
+}
+
+section {
+    color: black;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+.social-links img {
+    height: 30px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+section .minhas-redes {
+    margin-left: 150px;
+}
+
+.contact-methods {
+    display: flex;
+}
+
+section #sobre{
+    height:  350px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: black;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1eff00;
+    color: black;
+    transition: 0.8s;
+}
+
+input:focus, textarea:focus {
+    outline-color: black;
+}
+
+footer {
+    background-color: black;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+section #sobre {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px 100px;
+    box-shadow: 10px 10px 10px rgb(255, 255, 255);
+}
